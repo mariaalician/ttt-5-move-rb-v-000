@@ -10,8 +10,8 @@ board = [" "," "," "," "," "," "," "," "," "]
 puts "Where would you like to go?"
 input = gets.strip
 
-input_to_index(input) = "2"
+input_to_index(input)
 
-move("2", index, value)
+move(array, index, value)
 
 display_board(board)
